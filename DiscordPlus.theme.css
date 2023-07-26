@@ -26,16 +26,16 @@
   --dplus-accent-color-lightness: 31%;
 
 /* Foreground color: For things like text and icons. */
-  --dplus-foreground-color-hue-base: 194;
+  --dplus-foreground-color-hue-base: 183;
   --dplus-foreground-color-hue-links: 197;
   --dplus-foreground-color-saturation-amount: 1;
   --dplus-foreground-color-lightness-amount: 1;
 
 /* Background color: Covers the backdrop so the app is easier to read. */
-  --dplus-background-color-hue: 194;
+  --dplus-background-color-hue: 183;
   --dplus-background-color-saturation-amount: 1;
   --dplus-background-color-lightness-amount: 1;
-  --dplus-background-color-alpha: 0.8;
+  --dplus-background-color-alpha: 0.6;
 }
 
 /* If you use light theme, you can give it unique settings that are separate from dark theme. */
@@ -80,7 +80,7 @@ Set avatar/server radius to 50% to make them circular.
 /* Size of user and server icons */
 --dplus-icon-avatar-chat: 32px;
 --dplus-icon-avatar-list: 32px;
---dplus-icon-avatar-profile: 100px;
+--dplus-icon-avatar-profile: 64px;
 
 --dplus-icon-server-sidebar: 48px;
 --dplus-icon-server-list: 32px;
