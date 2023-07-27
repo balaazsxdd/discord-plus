@@ -21,18 +21,18 @@
   --dplus-backdrop: url(https://image.api.playstation.com/vulcan/img/rnd/202109/2213/xaMIvuorPgfCqjlhWPZ79qqn.png);
 
 /* Accent color, used to decorate the UI with colors. */
-  --dplus-accent-color-hue: 183;
-  --dplus-accent-color-saturation: 75%;
-  --dplus-accent-color-lightness: 50%;
+  --dplus-accent-color-hue: 184;
+  --dplus-accent-color-saturation: 100%;
+  --dplus-accent-color-lightness: 52%;
 
 /* Foreground color: For things like text and icons. */
-  --dplus-foreground-color-hue-base: 183;
-  --dplus-foreground-color-hue-links: 197;
+  --dplus-foreground-color-hue-base: 184;
+  --dplus-foreground-color-hue-links: 184;
   --dplus-foreground-color-saturation-amount: 1;
   --dplus-foreground-color-lightness-amount: 1;
 
 /* Background color: Covers the backdrop so the app is easier to read. */
-  --dplus-background-color-hue: 183;
+  --dplus-background-color-hue: 184;
   --dplus-background-color-saturation-amount: 1;
   --dplus-background-color-lightness-amount: 1;
   --dplus-background-color-alpha: 0.8;
@@ -60,16 +60,16 @@
 :root {
 /* Fonts */
 /* You can use any installed font on your device. */
-   --dplus-font-ui: 'Poppins';
-   --dplus-font-body: 'Roboto';
-   --dplus-font-header: 'Righteous';
+  --dplus-font-ui: 'Poppins';
+  --dplus-font-body: 'Roboto';
+  --dplus-font-header: 'Righteous';
 
 /* Round corner sizes, measured in pixel radius.
 Set avatar/server radius to 50% to make them circular.
    UI radius must be in pixels, otherwise things break. */
-  --dplus-radius-ui: 7px;
-  --dplus-radius-avatar: 15%;
-  --dplus-radius-server: 15%;
+  --dplus-radius-ui: 5px;
+  --dplus-radius-avatar: 10%;
+  --dplus-radius-server: 10%;
 
 /* This decides how much breathing room there should be between things like buttons and content. */
   --dplus-spacing-ui: 10px;
