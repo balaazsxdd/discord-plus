@@ -22,7 +22,7 @@
 
 /* Accent color, used to decorate the UI with colors. */
   --dplus-accent-color-hue: 183;
-  --dplus-accent-color-saturation: 100%;
+  --dplus-accent-color-saturation: 75%;
   --dplus-accent-color-lightness: 50%;
 
 /* Foreground color: For things like text and icons. */
@@ -35,7 +35,7 @@
   --dplus-background-color-hue: 183;
   --dplus-background-color-saturation-amount: 1;
   --dplus-background-color-lightness-amount: 1;
-  --dplus-background-color-alpha: 0.6;
+  --dplus-background-color-alpha: 0.8;
 }
 
 /* If you use light theme, you can give it unique settings that are separate from dark theme. */
@@ -75,12 +75,12 @@ Set avatar/server radius to 50% to make them circular.
   --dplus-spacing-ui: 10px;
 
 /* This sets how much space there should be between the app contents and the edges of the window. It also affects the distance between major UI elements, such as the server list to the channel list and channel list to the chat. */
-   --dplus-spacing-app: 5px;
+   --dplus-spacing-app: 10px;
 
 /* Size of user and server icons */
 --dplus-icon-avatar-chat: 64px;
 --dplus-icon-avatar-list: 32px;
---dplus-icon-avatar-profile: 32px;
+--dplus-icon-avatar-profile: 80px;
 
 --dplus-icon-server-sidebar: 48px;
 --dplus-icon-server-list: 32px;
